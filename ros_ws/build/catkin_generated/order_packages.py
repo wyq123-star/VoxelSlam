@@ -2,4 +2,4 @@
 source_root_dir = '/home/yutou/voxelslam/ros_ws/src'
 whitelisted_packages = ''.split(';') if '' != '' else []
 blacklisted_packages = ''.split(';') if '' != '' else []
-underlay_workspaces = '/home/yutou/voxelslam/packages/ws_livox/ws_livox/devel;/opt/ros/noetic'.split(';') if '/home/yutou/voxelslam/packages/ws_livox/ws_livox/devel;/opt/ros/noetic' != '' else []
+underlay_workspaces = '/home/yutou/voxelslam/packages/LIVOX_1/ws_livox/devel;/home/yutou/voxelslam/packages/livox_2/ws_livox/devel;/opt/ros/noetic'.split(';') if '/home/yutou/voxelslam/packages/LIVOX_1/ws_livox/devel;/home/yutou/voxelslam/packages/livox_2/ws_livox/devel;/opt/ros/noetic' != '' else []

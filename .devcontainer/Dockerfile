@@ -47,7 +47,12 @@ RUN groupadd --gid $USER_GID $USERNAME && \
 USER $USERNAME
 WORKDIR /home/$USERNAME
 
+ENV LIVOX_1 = /home/yutou/voxelslam/packages/LIVOX_1/ws_livox
+ENV livox_2 = /home/yutou/voxelslam/packages/livox_2/ws_livox
+
 RUN echo "source /opt/ros/noetic/setup.bash" >> /home/$USERNAME/.bashrc && \
-    echo "source /home/yutou/ros_ws/devel/setup.bash" >> /home/$USERNAME/.bashrc
+    echo "source /home/yutou/voxelslam/ros_ws/devel/setup.bash" >> /home/$USERNAME/.bashrc && \
+    echo "source $livox_2" >> /home/$USERNAME/.bashrc && \
+    echo "source $LIVOX_1" >> /home/$USERNAME/.bashrc && \
 
 CMD ["/bin/bash"]

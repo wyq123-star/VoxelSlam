@@ -839,8 +839,17 @@ laser_geometry_DIR:PATH=/opt/ros/noetic/share/laser_geometry/cmake
 //Path to a library.
 lib:FILEPATH=/opt/ros/noetic/lib/librosconsole_bridge.so
 
+//Value Computed by CMake
+livox_lidar_rosbag_converter_BINARY_DIR:STATIC=/home/yutou/voxelslam/ros_ws/build/livox_lidar_rosbag_converter
+
+//Value Computed by CMake
+livox_lidar_rosbag_converter_SOURCE_DIR:STATIC=/home/yutou/voxelslam/ros_ws/src/livox_lidar_rosbag_converter
+
+//The directory containing a CMake configuration file for livox_ros_driver2.
+livox_ros_driver2_DIR:PATH=/home/yutou/voxelslam/packages/livox_2/ws_livox/devel/share/livox_ros_driver2/cmake
+
 //The directory containing a CMake configuration file for livox_ros_driver.
-livox_ros_driver_DIR:PATH=/home/yutou/voxelslam/packages/ws_livox/ws_livox/devel/share/livox_ros_driver/cmake
+livox_ros_driver_DIR:PATH=/home/yutou/voxelslam/packages/LIVOX_1/ws_livox/devel/share/livox_ros_driver/cmake
 
 //The directory containing a CMake configuration file for map_msgs.
 map_msgs_DIR:PATH=/opt/ros/noetic/share/map_msgs/cmake
@@ -1196,7 +1205,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=6
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=7
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/yutou/voxelslam/packages/ws_livox/ws_livox/devel/include/livox_ros_driver/CustomMsg.h
+/home/yutou/voxelslam/packages/LIVOX_1/ws_livox/devel/include/livox_ros_driver/CustomMsg.h
 string
 -
 vector
@@ -26,7 +26,7 @@ std_msgs/Header.h
 livox_ros_driver/CustomPoint.h
 -
 
-/home/yutou/voxelslam/packages/ws_livox/ws_livox/devel/include/livox_ros_driver/CustomPoint.h
+/home/yutou/voxelslam/packages/LIVOX_1/ws_livox/devel/include/livox_ros_driver/CustomPoint.h
 string
 -
 vector
@@ -41,10 +41,6 @@ ros/builtin_message_traits.h
 -
 ros/message_operations.h
 -
-
-/home/yutou/voxelslam/ros_ws/src/Voxel-SLAM/VoxelSLAM/src/BTC.cpp
-BTC.h
-/home/yutou/voxelslam/ros_ws/src/Voxel-SLAM/VoxelSLAM/src/BTC.h
 
 /home/yutou/voxelslam/ros_ws/src/Voxel-SLAM/VoxelSLAM/src/BTC.h
 Eigen/Core

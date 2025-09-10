@@ -25,7 +25,7 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/yutou/voxelslam/ros_ws/src/Voxel-SLAM/VoxelSLAM/include"
-  "/home/yutou/voxelslam/packages/ws_livox/ws_livox/devel/include"
+  "/home/yutou/voxelslam/packages/LIVOX_1/ws_livox/devel/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
   "/usr/include/vtk-7.1"

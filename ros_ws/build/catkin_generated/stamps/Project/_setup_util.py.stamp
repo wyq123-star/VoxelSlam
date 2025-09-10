@@ -268,7 +268,7 @@ if __name__ == '__main__':
 
         if not args.local:
             # environment at generation time
-            CMAKE_PREFIX_PATH = r'/home/yutou/voxelslam/packages/ws_livox/ws_livox/devel;/opt/ros/noetic'.split(';')
+            CMAKE_PREFIX_PATH = r'/home/yutou/voxelslam/packages/LIVOX_1/ws_livox/devel;/home/yutou/voxelslam/packages/livox_2/ws_livox/devel;/opt/ros/noetic'.split(';')
         else:
             # don't consider any other prefix path than this one
             CMAKE_PREFIX_PATH = []

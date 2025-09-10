@@ -146,6 +146,7 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/yutou/voxelslam/ros_ws/build/gtest/cmake_install.cmake")
+  include("/home/yutou/voxelslam/ros_ws/build/livox_lidar_rosbag_converter/cmake_install.cmake")
   include("/home/yutou/voxelslam/ros_ws/build/Voxel-SLAM/VoxelSLAM/cmake_install.cmake")
   include("/home/yutou/voxelslam/ros_ws/build/Voxel-SLAM/VoxelSLAMPointCloud2/cmake_install.cmake")
 
