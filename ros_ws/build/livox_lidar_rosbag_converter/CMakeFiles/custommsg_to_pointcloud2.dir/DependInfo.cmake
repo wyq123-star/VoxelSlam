@@ -18,9 +18,9 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
   "/home/yutou/voxelslam/ros_ws/src/livox_lidar_rosbag_converter/include"
-  "/home/yutou/voxelslam/packages/livox_2/ws_livox/devel/include"
   "/opt/ros/noetic/include"
   "/opt/ros/noetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
+  "/home/yutou/voxelslam/packages/livox_2/ws_livox/devel/include"
   "/usr/include/eigen3"
   "/usr/include/pcl-1.10"
   "/usr/include/vtk-7.1"
