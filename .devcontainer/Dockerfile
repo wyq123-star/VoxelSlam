@@ -57,4 +57,5 @@ RUN echo "source $ROS_DISTRO_BASH" >> /home/$USERNAME/.bashrc && \
     # echo "source $livox_2" >> /home/$USERNAME/.bashrc && \
     # echo "source $LIVOX_1" >> /home/$USERNAME/.bashrc 
 
-CMD ["/bin/bash"]
+# CMD ["/bin/bash"]
+CMD ["/bin/bash", "-c", "source ${ROS_DISTRO_BASH} && source ${CATKIN_WS_BASH} && roslaunch all run.launch"]
